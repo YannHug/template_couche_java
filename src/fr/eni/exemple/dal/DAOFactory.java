@@ -5,7 +5,7 @@ import fr.eni.exemple.dal.jdbc.ExempleDAOJdbcImpl;
 
 public class DAOFactory {
 
-	public static ExempleDAO getBlagueDAO() {
+	public static ExempleDAO getExempleDAO() {
 		return new ExempleDAOJdbcImpl();
 	}
 	
